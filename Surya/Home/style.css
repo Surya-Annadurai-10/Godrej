@@ -89,6 +89,8 @@ html {
 
 .know-us-nav p {
   width: fit-content;
+   text-align: center;
+  /* background-color: red; */ */
 }
 
 .know-us-nav p:hover {
