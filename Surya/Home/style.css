@@ -8,6 +8,16 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Avenir';
+  src: url('./avenir_ff/AvenirLTStd-Book.otf'); 
+}
+
+
+body {
+  font-family: 'Avenir', sans-serif; 
+}
+
 /* Nav-section */
 
 .nav-section {
@@ -90,7 +100,7 @@ html {
 .know-us-nav p {
   width: fit-content;
    text-align: center;
-  /* background-color: red; */ */
+  /* background-color: red; */ 
 }
 
 .know-us-nav p:hover {
