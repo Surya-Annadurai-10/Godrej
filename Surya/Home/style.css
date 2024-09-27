@@ -159,10 +159,11 @@ body {
 /* Hero-section */
 
 .hero-section {
+  margin-top: 13%;
   display: grid;
   margin-top:4rem;
   grid-template-columns: repeat(5, 20%);
-  grid-template-rows: repeat(3, 215px);
+  grid-template-rows: repeat(3, 240px);
   grid-template-areas:
     "women chemicals consumer properties agrovet"
     "women chemicals consumer industries agrovet"
@@ -254,7 +255,7 @@ body {
 
 .grid-heading {
   position: absolute;
-  top: 25px;
+  top: 29px;
   left: 25px;
   font-weight: bold;
   font-size: 1.3rem;
