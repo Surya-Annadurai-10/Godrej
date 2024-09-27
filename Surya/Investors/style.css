@@ -56,11 +56,17 @@ html {
   width: 100%;
 }
 
-.know-us-nav p {
+.know-us-nav a {
   width: fit-content;
 }
 
-.know-us-nav p:hover {
+#content{
+  color: white;
+  text-transform:capitalize;
+  font-size: 1.1rem;
+}
+
+.know-us-nav a:hover {
   font-weight: bold;
 }
 
