@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nikhilsir{
+    height: 58px;
+}
+
+/* Nav-section */
+
+
+.nav-section {
+    width: 100%;
+    height: 10%;
+    padding: 0 1.3rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding-right: 1.7rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: #fff;
+    z-index: 100;
+    box-shadow: 1px 0 1px rgb(94, 94, 94);
+  }
+  
+  .nav-icon {
+    display: none;
+  }
+  
+  @media screen and (min-width:761px) and (max-width:1000px){
+    .nav-section {
+      /* background-color: blue; */
+      height: 17.5%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+  
+  
+  }
+  
+  @media screen and (max-width: 760px) {
+    .nav-section {
+      /* background-color: blue; */
+      height: 8%;
+    }
+  
+    .nav-content-section {
+      display: none;
+    }
+  
+    #nav-img {
+      width: 40%;
+      margin-left: -1rem;
+    }
+  
+    .nav-icon {
+      display: block;
+      margin-right: -1rem;
+      cursor: pointer;
+    }
+  
+    #triggered-up {
+      height: 1%;
+    }
+  }
+  
+  .nav-content-section a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  .right-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 2.6rem;
+    align-items: center;
+  }
+  
+  .nav-section img {
+    width: 220px;
+  }
+  
+  .underline {
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+    margin-top: 3px;
+    border-radius: 1px;
+  }
+  
+  .nav-content-section:hover .underline {
+    width: 100%;
+  }
+  
+  .know-us-nav p {
+    width: fit-content;
+     text-align: center;
+    /* background-color: red; */ 
+  }
+  
+  .know-us-nav p:hover {
+    font-weight: bold;
+  }
+  
+  .know-us-nav {
+    width: 100%;
+    height: 85px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3.3rem;
+    padding-right: 5rem;
+    font-size: 1.1rem;
+    visibility: hidden;
+    transition-duration: 0.5s;
+  }
+  
+  .nav-content-section:hover .know-us-nav {
+    visibility: visible;
+  }
+
+
+
+
+/* Entire body */
+
+/* don't use */
+
+
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('./avenir_ff/AvenirLTStd-Book.otf'); 
+}
+
+body {
+    font-family: 'Avenir', sans-serif; 
+}
+
+/* @font-face {
+    font-family: 'Avenir';
+    src: url('./avenir_ff/AvenirLTStd-Black.otf'); 
+}
+
+nav {
+    font-family: 'Avenir', sans-serif; 
+} */
+
+
+
+
+
+
+
+.img-sec{
+    background-image: url(./banner.jpg);
+    background-size: cover;
+    height: 100vh;
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img-sec h1{
+    
+   width: 70%;
+    color: white;
+    /* text-align: center; */
+    text-wrap: wrap;
+    font-size: 102px;
+    text-align: center;
+    animation: Ashish 1s ease-in 1;
+    /* transform: translateY(4px); */
+    
+}
+@keyframes Ashish {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1; 
+    }
+    
+}
+.paragraph{
+    margin: 10rem;
+    padding: 0px auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    
+}
+.box{
+    width: 90vw;
+    height: auto;
+}
+.box p{
+    line-height: 2rem;
+    font-size: 16px;
+    color:RGB(167, 169, 172);
+
+}
+.box a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Annimation */
+
+
+
+
+@media screen and (max-width:700px){
+    .img-sec{
+        height: 100vh;
+        width: 100%;
+    }
+    .paragraph{
+        flex-direction: column;
+    }
+}
