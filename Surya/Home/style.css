@@ -109,13 +109,13 @@ body {
   width: 100%;
 }
 
-.know-us-nav p {
+.know-us-nav a {
   width: fit-content;
    text-align: center;
   /* background-color: red; */ 
 }
 
-.know-us-nav p:hover {
+.know-us-nav a:hover {
   font-weight: bold;
 }
 
@@ -141,6 +141,12 @@ body {
 
 .nav-content-section:hover .know-us-nav {
   visibility: visible;
+}
+
+#content{
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.1rem;
 }
 
 /* Top empty section */
