@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+.header{
+    height:15vh;
+    width:100%;
+}
+.nav1{
+    height:15vh;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav1 .logo{
+    height:15vh;
+    width:250px;
+}
+.logo img{
+    height:70px;
+    width:220px;
+}
+.nav1 .main-menu{
+    height:15vh;
+    width:580px;
+    display: flex;
+    align-items: center;
+}
+.main-menu1{
+    display: none;
+}
+.main-menu a{
+    text-decoration: none;
+    color:black;
+    margin:0 15px;
+    padding:3px 0;
+    font-size: 17px;
+    border-bottom: 2px solid white;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri;
+
+    transition: border 1s;
+
+}
+.main-menu a:hover{
+    border-bottom: 2px solid black;
+}
+.header .nav2{
+    height:15vh;
+    width:100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header .nav2 a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    margin:0 25px;
+}
+.header .nav2{
+    display: none;
+}
+.header #Know_Us:hover + .nav2{
+    display: block;
+}
+.page_info{
+    height: 85vh;
+    width:100%;
+    background-image:url('https://www.godrejindustries.com/public/images/businesses/business_banner_01_new.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page_info .blur{
+    height: 85vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.1);
+}
+.page_info .info{
+    height:150px;
+    width:400px;
+    font-size: 100px;
+    color:white;
+    font-weight: bold;
+    font-family: Calibri;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    height:750vh;
+    width:100%;
+}
+.main-content h1{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin:100px;
+    letter-spacing: 2px;
+    font-family: Calibri;
+}
+.content{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-image{
+    height:100vh;
+    width:40%;
+}
+.left-image img{
+    height: 100vh;
+    width: 100%;
+}
+.right_details{
+    height:100vh;
+    width:40%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.right_details h2{
+    margin: 10px;
+    line-height: 0.7;
+    font-size: 32px;
+    font-weight: 400;
+}
+.right_details p{
+    font-size: 17px;
+    color:rgb(175, 175, 175);
+    margin:30px 80px 10px 10px;
+    line-height: 1.6;
+}
+.right_details a{
+    text-decoration: none;
+    color:black;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.footer{
+    height:50vh;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer h2{
+    margin: 10px 0;
+    line-height: 0.7;
+    font-size: 22px;
+    font-weight: 600;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 16px;
+    color:rgb(175, 175, 175);
+    line-height: 1.5;
+}
+.footer p{
+    text-decoration: none;
+    font-size: 16px;
+    color:rgb(157, 156, 156);
+    margin:30px 20px 20px 0px;
+    line-height: 1.5;
+}
+.footer .About{
+    height:40vh;
+    width:30%;
+}
+.footer .Links{
+    height:40vh;
+    width:20%;
+    display: flex;
+    flex-direction: column;
+}
+.footer .Address{
+    height:40vh;
+    width:25%;
+}
+.copyrights{
+    height:10vh;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyrights .left{
+    margin-left: 40px;
+}
+.copyrights .right{
+    margin-right: 50px;
+}
+.copyrights a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+    margin:10px;
+    padding:10px 15px;
+}
+.copyrights p{
+    color:white;
+    margin-left: auto;
+    font-size: 1.2vw;
+}
+.links2{
+    display: none;
+}
+ul {
+    list-style-type: none;
+}
+@media screen and (max-width:1000px) {
+    .header{
+        height:25vh;
+        width:100%;
+    }
+    .page_info{
+        background-position: 50%;
+    }
+   
+
+    .nav1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-content{
+        height:1050vh;
+    }
+    .content{
+        height: 150vh;
+        width:100%;
+        flex-direction: column;
+    }
+    .content .left-image{
+        height:100vh;
+        width:85%;
+    }
+    .content .right_details{
+        width:100%;
+        margin-left:13%
+    }
+    .footer{
+        height:150vh;
+        flex-direction: column;
+    }
+    .footer .About{
+        height:30vh;
+        width:85%;
+    }
+    .footer .Links{
+        height:30vh;
+        width:85%;
+    }
+    .footer .Address{
+        height:30vh;
+        width:85%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .header{
+        height:15vh;
+        width:100%;
+    }
+    .nav1{
+        flex-direction: row;
+    }
+    .nav1 .main-menu{
+        display: none;
+    }
+    .nav1 .links2{
+        display: none;
+    }
+   
+
+  .nav1 .links{
+        display: none;
+      }
+  .nav ul{
+    margin-top:200px;
+  }
+  .nav1 ul li ul li{
+    height:25px;
+    width:200px;
+    background-color: white;
+  }
+  .nav1 ul li ul li a:hover{
+    height:25px;
+    width:200px;
+    background-color: white ;
+    display: inline-block;
+  }
+      .nav1 .links2 ul li ul li a{
+        text-decoration: none;
+        color:black;  
+      }
+  .nav1 .links2 ul li ul li{ 
+     display: none;
+  }
+  .nav1 ul li:hover ul li{
+    display: block;
+  }
+  .nav1 .links2{
+    display: block;
+    color:black;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+    .nav1 .main-menu1 span{
+        color:black;
+        font-size: 6vw;
+    }
+    /* .nav1 .main-menu1 ul li:hover {
+        
+    } */
+    .nav1 .logo{
+        height:12vh;
+        width:220px;
+    }
+    .page_info{
+        background-position: 50%;
+    }
+    .main-content{
+        height:1060vh;
+    }
+    .content{
+        height: 150vh;
+        width:100%;
+        flex-direction: column;
+
+    }
+    .content .left-image{
+        height:100vh;
+        width:85%;
+    }
+    .content .right_details{
+        width:100%;
+        margin-left:13%
+    }
+    .footer{
+        height:150vh;
+        flex-direction: column;
+    }
+    .footer .About{
+        height:30vh;
+        width:85%;
+    }
+    .footer .Links{
+        height:30vh;
+        width:85%;
+    }
+    .footer .Address{
+        height:30vh;
+        width:85%;
+    }
+    .copyrights a{
+        text-decoration: none;
+        color: white;
+        font-size: 2vw;
+        margin:10px;
+        padding:10px 15px;
+    }
+    .copyrights p{
+        color:white;
+        margin-left: auto;
+        font-size: 2vw;
+    }
+}
