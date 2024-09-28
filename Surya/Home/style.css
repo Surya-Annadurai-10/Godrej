@@ -154,6 +154,16 @@ body {
 .box {
   color: white;
   font-size: 2rem;
+  overflow: hidden;
+}
+
+#hero-img{
+  transform: scale(1);
+  transition-duration: 0.5s;
+}
+
+#hero-img:hover{
+   transform: scale(1.1);
 }
 
 .top-section {
@@ -399,11 +409,21 @@ hr {
   width: 100%;
   object-fit: cover;
   object-position: center;
+  overflow: hidden;
 }
+
+
+
 
 .img-container img {
   width: 100%;
   height: 69%;
+  transform: scale(1);
+  transition-duration: 0.5s ;
+}
+
+#img-container-img:hover{
+   transform: scale(1.1);
 }
 
 .agrovet-heading {
@@ -426,6 +446,8 @@ hr {
   font-size: 1.2rem;
   overflow: hidden;
 }
+
+
 
 .explore a {
   text-decoration: none;
@@ -451,9 +473,25 @@ hr {
 .section2-img-section img {
   width: 100%;
   height: 100%;
+
   object-fit: cover;
   object-position: center;
 }
+
+.section2-img-section{
+  overflow: hidden;
+}
+
+#section2-img{
+  transform: scale(1);
+  transition-duration: 0.5s;
+}
+
+#section2-img:hover{
+  transform: scale(1.1);
+}
+
+
 
 .section2-page1 {
   width: 100%;
@@ -886,6 +924,7 @@ hr {
 
 .col-3 li {
   margin-bottom: 0.6rem;
+
 }
 
 .last-child {
@@ -920,7 +959,12 @@ hr {
     color: #3c3c3b;
     font-size: 1.4rem;
     font-weight: 300;
+    /* margin-top: rem; */
     /* margin-bottom: 3rem; */
+  }
+
+  .col-3{
+    margin-top: 2rem;
   }
   
 }
@@ -935,6 +979,8 @@ hr {
         justify-content: center;
         gap: 1rem;
     }
+
+    
 
     #col-1{
         text-align: center;
@@ -1057,10 +1103,13 @@ hr {
   width: 50px;
 }
 
+
+
 .back-to-top {
   position: fixed;
   right: 20px;
   bottom: 18px;
+  
 }
 
 @media  screen and (max-width:760px) {

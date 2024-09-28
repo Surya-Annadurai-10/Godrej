@@ -295,6 +295,19 @@ hr {
   object-position: center;
 }
 
+#section2-img{
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+
+#section2-img-section{
+  overflow: hidden;
+}
+
+#section2-img:hover{
+  transform: scale(1.1);
+}
+
 .section2-page1 {
   width: 100%;
 
@@ -729,6 +742,7 @@ hr {
   text-align: center;
   /* background-color: cyan; */
 }
+
 .nse,
 .bse {
   display: flex;
@@ -738,6 +752,15 @@ hr {
   width: 30%;
   /* margin-top: 3rem;
   background-color: yellow; */
+}
+
+#nse-img{
+  transform:scale(1);
+  transition: 0.4s ease-in-out;
+}
+
+#nse-img:hover{
+  transform: scale(1.1);
 }
 
 @media screen and (min-width:760px) and (max-width:1000px){
@@ -1172,6 +1195,10 @@ hr {
       font-size: 1.4rem;
       font-weight: 300;
       /* margin-bottom: 3rem; */
+    }
+
+    .col-3{
+      margin-top: 2rem;
     }
     
   }
