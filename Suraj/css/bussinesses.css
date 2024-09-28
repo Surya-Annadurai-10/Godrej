@@ -1,74 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Entire body */
+@font-face {
+    font-family: 'Avenir';
+    src: url('./Assets/avenir_ff/AvenirLTStd-Book.otf'); 
+}
+
+body {
+    font-family: 'Avenir', sans-serif; 
+}
 html{
     scroll-behavior: smooth;
 }
 
 /* Nav-section */
 
-.nav-section{
+.nav-section {
     width: 100%;
-    height:10%;
-  padding: 0 1.3rem;
+    height: 10%;
+    padding: 0 1.3rem;
     display: flex;
-    padding-right:1.7rem;
+    /* flex-wrap: wrap; */
+    padding-right: 1.7rem;
     justify-content: space-between;
     align-items: center;
-  position: fixed;
+    position: fixed;
     background: #fff;
     z-index: 100;
     box-shadow: 1px 0 1px rgb(94, 94, 94);
-}
-
-.nav-content-section  a{
+  }
+  
+  .nav-icon {
+    display: none;
+  }
+  
+  @media screen and (min-width:761px) and (max-width:1000px){
+    .nav-section {
+      /* background-color: blue; */
+      height: 17.5%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+  
+  
+  }
+  
+  @media screen and (max-width: 760px) {
+    .nav-section {
+      /* background-color: blue; */
+      height: 8%;
+    }
+  
+    .nav-content-section {
+      display: none;
+    }
+  
+    #nav-img {
+      width: 40%;
+      margin-left: -1rem;
+    }
+  
+    .nav-icon {
+      display: block;
+      margin-right: -1rem;
+      cursor: pointer;
+    }
+  
+    #triggered-up {
+      height: 1%;
+    }
+  }
+  
+  .nav-content-section a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-size: 1rem;    
-}
-
-.right-section{
+    font-size: 1rem;
+  }
+  
+  .right-section {
     display: flex;
     justify-content: space-around;
     gap: 2.6rem;
     align-items: center;
-}
-
-.nav-section img{
+  }
+  
+  .nav-section img {
     width: 220px;
-}
-
-.underline{
-    width:0%;
+  }
+  
+  .underline {
+    width: 0%;
     height: 2px;
     background-color: black;
     transition: 0.2s;
     transition-timing-function: ease-out;
     margin-top: 3px;
     border-radius: 1px;
-}
-
-
-
-.nav-content-section:hover .underline{
+  }
+  
+  .nav-content-section:hover .underline {
     width: 100%;
-}
-
-.know-us-nav p{
+  }
+  
+  .know-us-nav p {
     width: fit-content;
-}
-
-.know-us-nav p:hover{
-    font-weight:bold;
-    
-}
-
-.know-us-nav{
+     text-align: center;
+    /* background-color: red; */ 
+  }
+  
+  .know-us-nav p:hover {
+    font-weight: bold;
+  }
+  
+  .know-us-nav {
     width: 100%;
     height: 85px;
-    position:absolute;
-    top:100%;
+    position: absolute;
+    top: 100%;
     left: 0;
     right: 0;
-    background-color:rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.85);
     color: white;
     z-index: 10;
     display: flex;
@@ -77,92 +133,159 @@ html{
     gap: 3.3rem;
     padding-right: 5rem;
     font-size: 1.1rem;
-    visibility:hidden;
+    visibility: hidden;
     transition-duration: 0.5s;
+  }
+  
+  .nav-content-section:hover .know-us-nav {
+    visibility: visible;
+  }
+/* Entire body */
+@font-face {
+    font-family: 'Avenir';
+    src: url('./Assets/avenir_ff/AvenirLTStd-Book.otf'); 
 }
 
-.nav-content-section:hover  .know-us-nav{
-   visibility: visible;
-   
+body {
+    font-family: 'Avenir', sans-serif; 
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Calibri;
+html{
+    scroll-behavior: smooth;
 }
-.header{
-    height:15vh;
-    width:100%;
-}
-.nav1{
-    height:15vh;
-    width:100%;
+
+/* Nav-section */
+
+.nav-section {
+    width: 100%;
+    height: 10%;
+    padding: 0 1.3rem;
     display: flex;
+    /* flex-wrap: wrap; */
+    padding-right: 1.7rem;
     justify-content: space-between;
-}
-.nav1 .logo{
-    height:15vh;
-    width:250px;
-}
-.logo img{
-    height:70px;
-    width:220px;
-}
-.nav1 .main-menu{
-    height:15vh;
-    width:580px;
-    display: flex;
     align-items: center;
-}
-.main-menu1{
+    position: fixed;
+    background: #fff;
+    z-index: 100;
+    box-shadow: 1px 0 1px rgb(94, 94, 94);
+  }
+  
+  .nav-icon {
     display: none;
-}
-.main-menu a{
+  }
+  
+  @media screen and (min-width:761px) and (max-width:1000px){
+    .nav-section {
+      /* background-color: blue; */
+      height: 17.5%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+  
+  
+  }
+  
+  @media screen and (max-width: 760px) {
+    .nav-section {
+      /* background-color: blue; */
+      height: 8%;
+    }
+  
+    .nav-content-section {
+      display: none;
+    }
+  
+    #nav-img {
+      width: 40%;
+      margin-left: -1rem;
+    }
+  
+    .nav-icon {
+      display: block;
+      margin-right: -1rem;
+      cursor: pointer;
+    }
+  
+    #triggered-up {
+      height: 1%;
+    }
+  }
+  
+  .nav-content-section a {
     text-decoration: none;
-    color:black;
-    margin:0 15px;
-    padding:3px 0;
-    font-size: 17px;
-    border-bottom: 2px solid white;
-    font-weight: 500;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri;
-
-    transition: border 1s;
-
-}
-.main-menu a:hover{
-    border-bottom: 2px solid black;
-}
-.header .nav2{
-    height:15vh;
-    width:100%;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  .right-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 2.6rem;
+    align-items: center;
+  }
+  
+  .nav-section img {
+    width: 220px;
+  }
+  
+  .underline {
+    width: 0%;
+    height: 2px;
     background-color: black;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+    margin-top: 3px;
+    border-radius: 1px;
+  }
+  
+  .nav-content-section:hover .underline {
+    width: 100%;
+  }
+  
+  .know-us-nav p {
+    width: fit-content;
+     text-align: center;
+    /* background-color: red; */ 
+  }
+  
+  .know-us-nav p:hover {
+    font-weight: bold;
+  }
+  
+  .know-us-nav {
+    width: 100%;
+    height: 85px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    z-index: 10;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
-}
-.header .nav2 a{
-    color:white;
-    text-decoration: none;
-    font-size: 18px;
-    margin:0 25px;
-}
-.header .nav2{
-    display: none;
-}
-.header #Know_Us:hover + .nav2{
-    display: block;
-}
+    align-items: center;
+    gap: 3.3rem;
+    padding-right: 5rem;
+    font-size: 1.1rem;
+    visibility: hidden;
+    transition-duration: 0.5s;
+  }
+  
+  .nav-content-section:hover .know-us-nav {
+    visibility: visible;
+  }
 .page_info{
-    height: 85vh;
+    height: 110vh;
     width:100%;
     background-image:url('https://www.godrejindustries.com/public/images/businesses/business_banner_01_new.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .page_info .blur{
-    height: 85vh;
+    height: 110vh;
     width:100%;
     display: flex;
     justify-content: center;
@@ -192,7 +315,7 @@ html{
     letter-spacing: 2px;
     font-family: Calibri;
 }
-.content{
+.content1{
     height:100vh;
     width:100%;
     display: flex;
