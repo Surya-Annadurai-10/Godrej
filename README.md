@@ -1,4 +1,4 @@
-![Screenshot 2024-09-28 124742](https://github.com/user-attachments/assets/3fa15301-8021-46f3-ba57-9e7ff43d1141)![Screenshot 2024-09-28 124725](https://github.com/user-attachments/assets/c0d3ac1c-79d1-47cd-9a32-4ce8c3d291a2)![Screenshot 2024-09-28 124553](https://github.com/user-attachments/assets/ccdecc34-7bfb-4150-96ab-62fee2c4eecc)
+
 # Godrej Website Clone !!
 
 Hello🙋‍♂️!! Welcome to the Godrej Website Clone project! This repository showcases our team's effort to replicate the official Godrej website, focusing on design and functionality. 
@@ -83,7 +83,8 @@ By implementing these content management features, we aimed to create a flexible
 
 ## Godrej Agrovet 🍃: (Surya)
 
-
+![Screenshot 2024-09-28 124742](https://github.com/user-attachments/assets/3fa15301-8021-46f3-ba57-9e7ff43d1141)
+![Screenshot 2024-09-28 124725](https://github.com/user-attachments/assets/c0d3ac1c-79d1-47cd-9a32-4ce8c3d291a2)![Screenshot 2024-09-28 124553](https://github.com/user-attachments/assets/ccdecc34-7bfb-4150-96ab-62fee2c4eecc)
 ![Screenshot 2024-09-28 124553](https://github.com/user-attachments/assets/a38bd80c-f670-4970-8cf7-eeab895dfea6)
 ![Screenshot 2024-09-28 124645](https://github.com/user-attachments/assets/3ae103a9-6c7b-41e8-9852-8b7b3431978c)
 
@@ -141,13 +142,17 @@ By implementing these content management features, we aimed to create a flexible
 
 ## Conclusion: 
 
-## Conclusion
-
 The Godrej website clone project has been an enriching experience for our team, allowing us to apply and enhance our web development skills in a real-world context. Through collaboration and creativity, we successfully replicated the core features of the original site, emphasizing responsive design, interactive elements, and effective content management.
 
 This project not only strengthened our technical abilities in HTML, CSS, and JavaScript but also taught us the importance of user experience and accessibility in web design. We are proud of the outcome and believe it serves as a valuable reference for future projects.
 
 We hope this clone inspires others to explore web development and encourages continuous learning and improvement in the field. Thank you for taking the time to review our work!
 
+
 ## Regards
 Team Godrej🚀
+
+
+
+## Thank You for reading all the contents!!💓🤝
+## Stay tuned for more Projects!!
