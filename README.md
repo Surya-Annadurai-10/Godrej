@@ -69,7 +69,7 @@ By implementing these content management features, we aimed to create a flexible
 - **HTML**: For structuring the web pages.
 - **CSS**: For styling and layout.
 - **JavaScript**: Few javavscript For interactive features.
-
+----
 ## Getting Started
 
 ## 1.Home Page 🏠: (Surya)
@@ -83,11 +83,9 @@ By implementing these content management features, we aimed to create a flexible
 ![Screenshot 2024-09-28 124306](https://github.com/user-attachments/assets/2858f62e-28a7-4641-91c7-2aa9d9e097b7)
 ![Screenshot 2024-09-28 124322](https://github.com/user-attachments/assets/ce178c7a-e9fe-4f73-a9e7-8a93d9a3dab6)
 
-
+---
 ## Godrej Agrovet 🍃: (Surya)
 
-![Screenshot 2024-09-28 124742](https://github.com/user-attachments/assets/3fa15301-8021-46f3-ba57-9e7ff43d1141)
-![Screenshot 2024-09-28 124725](https://github.com/user-attachments/assets/c0d3ac1c-79d1-47cd-9a32-4ce8c3d291a2)
 ![Screenshot 2024-09-28 124553](https://github.com/user-attachments/assets/a38bd80c-f670-4970-8cf7-eeab895dfea6)
 ![Screenshot 2024-09-28 124645](https://github.com/user-attachments/assets/3ae103a9-6c7b-41e8-9852-8b7b3431978c)
 
@@ -95,6 +93,8 @@ By implementing these content management features, we aimed to create a flexible
 ![Screenshot 2024-09-28 124725](https://github.com/user-attachments/assets/4bfb3f61-526f-4242-ab1e-da1595c4c3ce)
 ![Screenshot 2024-09-28 124742](https://github.com/user-attachments/assets/685d09d7-1fa8-468d-9cae-5626fcc82a54)
 ![Screenshot 2024-09-28 124803](https://github.com/user-attachments/assets/d99b7975-c0c4-4cdd-bc21-508b2cca9993)
+
+---
 
 ## Investors 💰💸: (Surya)
 
@@ -104,6 +104,8 @@ By implementing these content management features, we aimed to create a flexible
 ![Screenshot 2024-09-28 125217](https://github.com/user-attachments/assets/f917420d-2d14-40a7-a790-838214b45148)
 ![Screenshot 2024-09-28 125231](https://github.com/user-attachments/assets/4291c532-f65e-4175-b04b-1d89d3b0ece2)
 
+---
+
 ## Know Us 🤚: (Suraj)
 
 ![Screenshot 2024-09-28 125821](https://github.com/user-attachments/assets/eea5adde-193d-4d98-b8e3-e86a156d8961)
@@ -111,6 +113,8 @@ By implementing these content management features, we aimed to create a flexible
 ![Screenshot 2024-09-28 125832](https://github.com/user-attachments/assets/8affc3a2-227b-4f43-9145-b8a50645b023)
 ![Screenshot 2024-09-28 125844](https://github.com/user-attachments/assets/f5eb601d-f3cf-4932-b0c4-23be7b80e515)
 ![Screenshot 2024-09-28 125856](https://github.com/user-attachments/assets/62fa031c-309c-403b-9b5d-a8669804de7f)
+
+---
 
 ## Businesses🚍 : (Suraj)
 
@@ -122,6 +126,8 @@ By implementing these content management features, we aimed to create a flexible
 ![Screenshot 2024-09-28 130049](https://github.com/user-attachments/assets/88527099-d1dd-416b-9b87-d3648ee80028)
 
 
+---
+
 ## Careers 🧑‍🏭: (Suraj)
 ![Screenshot 2024-09-28 130209](https://github.com/user-attachments/assets/1b8a6201-8617-4d49-ab02-7c344cb1ede5)
 
@@ -129,11 +135,13 @@ By implementing these content management features, we aimed to create a flexible
 ![Screenshot 2024-09-28 130229](https://github.com/user-attachments/assets/f3b8ac09-d849-4d57-b0e8-c5c2095e648d)
 ![Screenshot 2024-09-28 130239](https://github.com/user-attachments/assets/2c654485-a963-4975-a3af-0a176ff6a0dc)
 
+---
 
 ## About 🔍: (Ashish)
 
 ![Screenshot 2024-09-28 130418](https://github.com/user-attachments/assets/6a833cae-8cf2-44d3-b793-68dace588f62)
 
+---
 
 ## Good & Greens 🌿🍀: (Ashish)
 
@@ -141,6 +149,7 @@ By implementing these content management features, we aimed to create a flexible
 ![Screenshot 2024-09-28 130535](https://github.com/user-attachments/assets/1e128082-09b3-4f4f-ae11-f68770d3da84)
 ![Screenshot 2024-09-28 130552](https://github.com/user-attachments/assets/75e7ed21-536b-48c4-83fa-bf26310046aa)
 
+---
 
 ## Conclusion: 
 
