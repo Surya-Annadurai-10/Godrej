@@ -87,14 +87,13 @@ By implementing these content management features, we aimed to create a flexible
 ## Godrej Agrovet 🍃: (Surya)
 
 ![Screenshot 2024-09-28 124742](https://github.com/user-attachments/assets/3fa15301-8021-46f3-ba57-9e7ff43d1141)
-![Screenshot 2024-09-28 124725](https://github.com/user-attachments/assets/c0d3ac1c-79d1-47cd-9a32-4ce8c3d291a2)![Screenshot 2024-09-28 124553](https://github.com/user-attachments/assets/ccdecc34-7bfb-4150-96ab-62fee2c4eecc)
+![Screenshot 2024-09-28 124725](https://github.com/user-attachments/assets/c0d3ac1c-79d1-47cd-9a32-4ce8c3d291a2)
 ![Screenshot 2024-09-28 124553](https://github.com/user-attachments/assets/a38bd80c-f670-4970-8cf7-eeab895dfea6)
 ![Screenshot 2024-09-28 124645](https://github.com/user-attachments/assets/3ae103a9-6c7b-41e8-9852-8b7b3431978c)
 
 ![Screenshot 2024-09-28 124704](https://github.com/user-attachments/assets/3a27e39a-1998-4fcc-ac1e-fa7bfec6c900)
 ![Screenshot 2024-09-28 124725](https://github.com/user-attachments/assets/4bfb3f61-526f-4242-ab1e-da1595c4c3ce)
 ![Screenshot 2024-09-28 124742](https://github.com/user-attachments/assets/685d09d7-1fa8-468d-9cae-5626fcc82a54)
-![Screenshot 2024-09-28 124750](https://github.com/user-attachments/assets/43311511-8c8d-4cce-8311-940a7b30c054)
 ![Screenshot 2024-09-28 124803](https://github.com/user-attachments/assets/d99b7975-c0c4-4cdd-bc21-508b2cca9993)
 
 ## Investors 💰💸: (Surya)
@@ -149,13 +148,10 @@ The Godrej website clone project has been an enriching experience for our team, 
 
 This project not only strengthened our technical abilities in HTML, CSS, and JavaScript but also taught us the importance of user experience and accessibility in web design. We are proud of the outcome and believe it serves as a valuable reference for future projects.
 
-We hope this clone inspires others to explore web development and encourages continuous learning and improvement in the field. Thank you for taking the time to review our work!
+We hope this clone inspires others to explore web development and encourages continuous learning and improvement in the field. 
 
+## Thank you for taking the time to review our work!!!💓🤝
+## Stay tuned for more Projects!!
 
 ## Regards
 Team Godrej🚀
-
-
-
-## Thank You for reading all the contents!!💓🤝
-## Stay tuned for more Projects!!
