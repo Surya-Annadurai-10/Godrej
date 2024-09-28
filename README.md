@@ -1,6 +1,9 @@
 
 # Godrej Website Clone !!
 
+## Hosted Link: [Click me](https://surya-annadurai-10.github.io/Godrej/Surya/Home/index.html)
+## Github Link: [Click me](https://github.com/Surya-Annadurai-10/Godrej)
+
 Hello🙋‍♂️!! Welcome to the Godrej Website Clone project! This repository showcases our team's effort to replicate the official Godrej website, focusing on design and functionality. 
 
 ## 👪Team Members
