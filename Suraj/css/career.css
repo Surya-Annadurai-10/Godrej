@@ -105,6 +105,17 @@
   align-items: center;
   text-align: center;
 }
+.slideshow-container{
+  height:100vh;
+  width:100%;
+}
+.slideshow-container .mySlides{
+  height:100vh;
+  width:100%;
+}
+.slideshow-container .mySlides img{
+  height:100vh;
+}
 #dif_font{
   font-family: Segoe Script;
   font-size: 30px;
@@ -438,7 +449,7 @@ ul {
       background-position: 50%;
   }
   .nav{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(0,0,0,0);
   }
   .nav .Logo{
     justify-content: space-between;
@@ -512,16 +523,16 @@ ul {
  .ReachOut .container{
   height: 180vh;
  }
-  .content{
+  .content1{
       height: 150vh;
       width:100%;
       flex-direction: column;
   }
-  .content .left-image{
+  .content1 .left-image{
       height:100vh;
       width:85%;
   }
-  .content .right_details{
+  .content1 .right_details{
       width:100%;
       margin-left:13%
   }
@@ -544,7 +555,6 @@ ul {
 }
 
 @media screen and (max-width:600px) {
- 
   .nav1{
       flex-direction: row;
   }
@@ -579,19 +589,26 @@ ul {
   .main-content{
       height:1060vh;
   }
-  .content{
+  .content1{
       height: 150vh;
       width:100%;
       flex-direction: column;
 
   }
-  .content .left-image{
+  .content1 .left-image{
       height:100vh;
       width:85%;
   }
-  .content .right_details{
+  .content1 .right_details{
       width:100%;
       margin-left:13%
+  }
+  .Features{
+    height:430vh;
+  }
+
+  .Features .container{
+    height:350vh;
   }
   .footer{
       height:150vh;
@@ -610,15 +627,15 @@ ul {
       width:85%;
   }
   .copyrights a{
-      text-decoration: none;
-      color: white;
-      font-size: 2vw;
-      margin:10px;
-      padding:10px 15px;
-  }
-  .copyrights p{
-      color:white;
-      margin-left: auto;
-      font-size: 2vw;
-  }
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    margin:1px;
+    padding:10px 2px;
+}
+.copyrights p{
+    color:white;
+    margin-left: auto;
+    font-size: 11px;
+}
 }
